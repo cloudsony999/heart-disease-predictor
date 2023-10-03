@@ -1,7 +1,8 @@
+print('hi')
+import sys
 from flask import Flask
 from flask import render_template,redirect,request
 import pandas as pd
-import sys
 import numpy as np
 import pickle
 from sklearn.model_selection import train_test_split
@@ -30,5 +31,6 @@ print(newdata)
 result2=model.predict(newdata)
 print(result)
 print(result2)
+print('-------------------------------')
     
 
